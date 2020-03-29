@@ -7,4 +7,4 @@
 使用PicGo上传图片到此文件夹，实现图床功能
 
 ## Dir System
-一些系统的文件，如：[handsome的静态](/tree/master/system/handsome-assets)
+一些系统的文件，如：[handsome的静态](/tree/master/System/handsome/assets)
