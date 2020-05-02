@@ -8,6 +8,6 @@
 
 ### 7.2.0
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/handsome/assets/5.1.1/
+    https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/btpanel/7.2.0/
 
 ### todo
