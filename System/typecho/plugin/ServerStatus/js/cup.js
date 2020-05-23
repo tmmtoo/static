@@ -1,10 +1,10 @@
-window.myApp = window.myApp || {};
-myApp.dashboard = (function($) {
+window.WebsiteStatus = window.WebsiteStatus || {};
+WebsiteStatus.dashboard = (function($) {
   var _template = "";
   var _loaded = 0;
   var _intervalId = 0;
   var _start = Date.now();
-  var _refresh = ((typeof (__refresh) == "number") ? __refresh : 300);
+  var _refresh = 300;
   var _uptimeRanges = "";
   var _secondsToday = 0;
   var $_container = {};
