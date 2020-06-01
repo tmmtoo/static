@@ -1,55 +1,146 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="static.wfblog.net - WeiFeng's Static">
-    <title>static.wfblog.net - WeiFeng's Static</title>
-    <link href="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/pure-min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/css2.css" rel="stylesheet" />
-</head>
-<body>
-    <div id="main">
-        <div class="header">
-            <h1>Static</h1>
-			<h2>WeiFeng's Static - <a href="https://wfblog.net">Weifeng</a></h2>
-        </div>
-        <div class="content">
-            <aside>
-				本站存放静态文件，文件链接已放置jsDelivr加速~
-				更多内容请访问：<a href="https://wfblog.net">Weifeng's Blog</a>
-            </aside>
-		<h4>如何调用？</h4>
-		<div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-3"> 将图片、JS、CSS的调用地址改为下列地址即可 </div>
-            <div class="pure-u-1 pure-u-md-1-3"> https://cdn.jsdelivr.net/gh/acewfdy/static/ </div>
-            <div class="pure-u-1 pure-u-md-1-3"> 查看列表或上传文件可前往<a href="https://github.com/acewfdy/static/" target="_blank">Github</a> </div>
-        </div>
-		 <h4>更多内容请访问：<a href="https://web.wfblog.net">地址库</a></h4>
-		 <h4>演示</h4>
-		<div class="pure-g">
-		    <div class="pure-u-1"><a class="pure-button pure-button-secondary" href="https://cdn.jsdelivr.net/gh/acewfdy/static/10MB.test" target="_blank">10MB.test</a></div>
-			<div class="pure-u-1"><img src="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/cdntu.jpg" class="pure-img" /></div>
-		</div>
-		</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 
-        <div class="footer">
-            <div class="legal pure-g">
-                <div class="pure-u-1 u-sm-1-2">
-                    <p class="legal-license">
-						技术支持： <a href="https://wfblog.net">Weifeng</a>
-                    </p>
+    <title>Weifeng - 一念成佛，一念成魔</title>
+    <meta name="description" content="喜欢搞事情，喜欢钻研新东西，热爱生活，热爱游戏，热爱编程">
+    <meta name="keywords" content="Weifeng,weifeng,Weifeng's Blog,微风,微风's Blog">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/FiraCode.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/nutssss.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/acewfdy/static/Image/20200321132017.jpg">
+</head>
+
+<body>
+    <div id="box">
+        <!-- 个人资料卡片 -->
+        <div class="meBox">
+            <!-- 头像 -->
+            <div class="headPhoto"></div>
+            <!-- 介绍 -->
+            <div class="meBox-title">
+                <p>I'm Weifeng</p>
+                <div class="fg"></div>
+            </div>
+            <div class="meBox-text">
+                <p>喜欢搞事情，喜欢钻研新东西</p>
+                <p>热爱生活，热爱游戏，热爱编程</p>
+				<p>在磨难中前行，在艰难中成长</p>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="meBox-Button">
+                <a href="https://wfblog.net" target="_blank">Blog</a>
+                <a href="https://api.uomg.com/api/qq.talk?qq=2023516692" target="_blank" rel="nofollow">QQ</a>
+            </div>
+        </div>
+
+        <!-- 伪终端介绍 -->
+        <div id="cmdBox">
+            <!-- 第一个终端 -->
+            <div class="cmd">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
                 </div>
-				<div class="pure-u-1 u-sm-1-2">
-                    <p class="legal-copyright">
-					
-						本站放置于<a href="https://github.com/acewfdy/static/" target="_blank">Github</a>，并使用jsDelivr进行加速！
-						<br>
-                        © 2020 Weifeng Inc. All rights reserved.
-                    </p>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>Main - bash</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./tianqi.sh</span>
+                    <br>
+                    <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tc&skin=pitaya" frameborder="0" width="350" height="24" allowtransparency="true"></iframe>
+                    <br>
+                    <br>
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">cat ./app.txt</span>
+                    <p>我的作品：</p>
+                    <ul class="ul">
+                        <li><a href="https://wfblog.net/archives/serverstatus_plugin.html" target="_blank">ServerStatus - A Plugin Of Typecho</a></li>
+						<li><a href="https://yun.ydidc.top/" target="_blank">YHOST</a></li>
+						<li><a href="#" target="_blank">Reseller For SWAPIDC</a></li>
+						<li><a href="https://github.com/acewfdy" target="_blank">More On Github</a></li>
+                    </ul>
+                    <br>
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./links.sh</span>
+                    <p>我的站点：</p>
+                    <ul class="ul">
+                        <li><a href="https://wfblog.net/" target="_blank">Blog</a></li>
+						<li><a href="https://pic.wfblog.net/" target="_blank">Image</a></li>
+						<li><a href="https://wf6.me/" target="_blank">Cloud</a></li>
+						<li><a href="https://wfblog.net/page/serverstatus.html" target="_blank">ServerStatus</a></li>
+						<li><a href="https://wfblog.net/page/websitestatus.html" target="_blank">WebsiteStatus</a></li>
+                    </ul>
                 </div>
             </div>
-
+            <!-- 第二个终端 -->
+            <div class="cmd cmd2">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>Other - bash</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">bash ./static help</span>
+                    <p>将图片、JS、CSS的调用地址改为下列地址即可</p>
+                    <p><a href="https://cdn.jsdelivr.net/gh/acewfdy/static@latest/" target="_blank">https://cdn.jsdelivr.net/gh/acewfdy/static@latest/</a></p>
+                    <p>查看列表或上传文件可前往<a href="https://github.com/acewfdy/static/" target="_blank">Github</a></p>
+					<br>
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">bash ./static demo</span>
+					<ul class="ul">
+                        <li><a href="https://cdn.jsdelivr.net/gh/acewfdy/static/10MB.test" target="_blank">10MB.test</a></li>
+                        <li><a href="https://cdn.jsdelivr.net/gh/acewfdy/static/System/index/cdntu.jpg" target="_blank">test.png</a></li>
+                    </ul>
+					<br>
+                    <span style="color: rgb(0, 190, 0);">root@Weifeng</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">bash ./static bt</span>
+                    <p>请确保使用前已经安装了[堡塔面板静态文件加速]插件！</p>
+                    <p>然后在命令行执行以下代码，再ctrl+f5刷新缓存即可看见效果</p>
+                    <p>wget https://cdn.jsdelivr.net/gh/acewfdy/static@latest/System/btpanel/other/hosts.json -O /www/server/panel/plugin/static_cdn/hosts.json</p>
+                    <p>wget https://cdn.jsdelivr.net/gh/acewfdy/static@latest/System/btpanel/other/url_file.pl -O /www/server/panel/plugin/static_cdn/url_file.pl</p>
+					<br>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
+
+    <!-- 页脚 -->
+    <div id="footer">
+        <p>© 2020 Weifeng | <a href="http://beian.miit.gov.cn" target="_blank">蜀ICP备19007610号-4</a></p>
+    </div>
 </body>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
 </html>
