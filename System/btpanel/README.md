@@ -10,4 +10,8 @@
 
     https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/btpanel/7.2.0/
 
+### 7.3.0
+
+    https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/btpanel/7.3.0/
+
 ### todo
