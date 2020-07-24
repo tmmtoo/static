@@ -18,4 +18,8 @@
 
     https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/btpanel/7.4.0/
 
+### 7.4.2
+
+    https://cdn.jsdelivr.net/gh/acewfdy/static@master/System/btpanel/7.4.2/
+
 ### todo
